@@ -77,7 +77,7 @@ int main()
         cout << "otylosc skrajna" << endl;
         break;
     default:
-        cout << "cos posz³o zle" << endl;
+        cout << "cos poszÂ³o zle" << endl;
         break;
     }
 
