@@ -1,15 +1,16 @@
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
 int main(int argc, char *argv[])
 {
-    int *tablica;
+    int *tablica = nullptr;
     tablica = new int[argc - 1];
 
     for(int i = 1; i < argc; i++)
     {
-        tablica[i] = (int)*argv[i];
+        tablica[i] = atoi(argv[i]);
     }
     
     for(int i = 1; i < argc; i++)
@@ -24,7 +25,7 @@ int main(int argc, char *argv[])
     }
     for(int i = 1; i < argc; i++)
     {
-        cout << (char)tablica[i] << " ";
+        cout << tablica[i] << " ";
     }
     
     return 0;
