@@ -1,2 +1,2 @@
 # Lab1
-Sortowanie tablicy
+zad1 - Sortowanie tablicy
