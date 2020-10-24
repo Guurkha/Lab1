@@ -28,5 +28,8 @@ int main(int argc, char *argv[])
         cout << tablica[i] << " ";
     }
     
+    delete [] tablica;
+    tablica = NULL;
+    
     return 0;
 }
