@@ -45,5 +45,7 @@ int main()
 
     cout << "po dodaniu" << endl;
     wypisanie_tablicy(tablica1);
+    
+    return 0;
 }
 
